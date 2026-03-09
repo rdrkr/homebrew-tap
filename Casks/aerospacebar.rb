@@ -2,10 +2,10 @@ cask "aerospacebar" do
   version "1.0.0-beta.4"
   sha256 "4e0505dde1863d4bdf5306976e7ec319d69cc5338506d590116157832870b187"
 
-  url "https://github.com/rdrkr/aerospacebar-app/releases/download/v#{version}/AeroSpaceBar-v#{version}.zip"
+  url "https://github.com/rdrkr/AeroSpaceBar/releases/download/v#{version}/AeroSpaceBar-v#{version}.zip"
   name "AeroSpaceBar"
   desc "Modern macOS menu bar application for managing AeroSpace window manager"
-  homepage "https://github.com/rdrkr/aerospacebar-app"
+  homepage "https://github.com/rdrkr/AeroSpaceBar"
 
   livecheck do
     url :url
