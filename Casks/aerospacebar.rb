@@ -16,6 +16,10 @@ cask "aerospacebar" do
 
   app "AeroSpaceBar.app"
 
+  postflight do
+    system "xattr", "-dr", "com.apple.quarantine", "#{appdir}/AeroSpaceBar.app"
+  end
+
   zap trash: [
     "~/Library/Application Support/com.rdrkr.AeroSpaceBar",
     "~/Library/Caches/com.rdrkr.AeroSpaceBar",
