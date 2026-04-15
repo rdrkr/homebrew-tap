@@ -1,6 +1,6 @@
 cask "aerospacebar" do
-  version "1.0.0-beta.12"
-  sha256 "ce68c7ed6d6813717f238ff23c68a7d8bfe07f65fd3a14926706c65f26177eb8"
+  version "1.0.0-beta.13"
+  sha256 "3bcd14daa7aa4cfb735415ae844cb9950a1f4619b6ed4fe25b7357abd1e190e9"
 
   url "https://github.com/rdrkr/AeroSpaceBar/releases/download/v#{version}/AeroSpaceBar-v#{version}.zip"
   name "AeroSpaceBar"
