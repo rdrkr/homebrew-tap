@@ -4,7 +4,7 @@ cask "aerospacebar" do
 
   url "https://github.com/rdrkr/AeroSpaceBar/releases/download/v#{version}/AeroSpaceBar-v#{version}.zip"
   name "AeroSpaceBar"
-  desc "Modern macOS menu bar application for managing AeroSpace window manager"
+  desc "Modern menu bar application for managing AeroSpace window manager"
   homepage "https://github.com/rdrkr/AeroSpaceBar"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "aerospacebar" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "AeroSpaceBar.app"
 
